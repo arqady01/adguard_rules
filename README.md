@@ -19,6 +19,8 @@
 
 ## 阻止确切地址
 
+![Image text](https://github.com/arqady01/adguard_rules/blob/main/1_exact_address.svg)
+
 **This rule blocks:**
 
 - `http://example.org/`
@@ -29,4 +31,16 @@
 
 ## 基本规则修改器
 
+![Image text](https://github.com/arqady01/adguard_rules/blob/main/2_basic_rule_options.svg)
+
 过滤规则支持多种修饰符，允许您微调规则行为。下面是带有一些简单修饰符的规则示例。
+
+**This rule blocks:**
+
+- http://example.org/script.js if this script is loaded from example.org.
+
+**This rule does not block:**
+
+- https://example.org/script.js if this script is loaded from example.org.
+- https://example.org/banner.png because it is not a script.
+
