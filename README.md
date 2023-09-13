@@ -1,2 +1,1 @@
-# adguard_rules
-adguard规则
+![Image text]([https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg](https://github.com/arqady01/adguard_rules/blob/main/0_blocking_domain.svg)https://github.com/arqady01/adguard_rules/blob/main/0_blocking_domain.svg)
